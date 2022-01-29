@@ -1,0 +1,32 @@
+{
+  "name": "httpnw3377",
+  "version": "1.0.0",
+  "description": "users little application",
+  "main": "http_server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm install",
+
+    "start": "node http_server.js"
+
+  },
+
+  "engines": {
+
+    "node": "14.x"
+
+  },
+
+  "author": "westent297@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "curl": "^0.1.4",
+    "express": "^4.17.2",
+    "faker": "^5.1.0",
+    "lowdb": "^1.0.0"
+  }  
+
+}
+
